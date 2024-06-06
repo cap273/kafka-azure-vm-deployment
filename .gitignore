@@ -1,0 +1,162 @@
+# Ignore Maven target directory
+**/target/
+
+# Ignore Maven specific files
+mvnw
+mvnw.cmd
+.mvn/
+
+# Ignore Eclipse files (if using Eclipse for Java)
+/.classpath
+/.project
+/.settings/
+
+# Ignore IntelliJ IDEA files
+/.idea/
+/*.iml
+
+# Ignore NetBeans specific files
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Ignore VS Code specific files
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python virtual environments
+venv/
+ENV/
+env/
+.venv/
+.VENV/
+
+# Ignore Python distribution/packaging files
+build/
+dist/
+*.egg-info/
+
+# Ignore Pylint specific files
+pylint_report.log
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore Windows specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Ignore Linux specific files
+*~
+.nfs*
+
+# Ignore log files
+*.log
+
+# Ignore temporary files created by editors
+*.swp
+*.swo
+*.bak
+*.tmp
+*.orig
+
+# Ignore backup files
+*.bak
+
+# Ignore metadata files
+*.metadata
+
+# Ignore secret or sensitive configuration files
+*.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*
+
+# Ignore dependency directories
+node_modules/
+bower_components/
+jspm_packages/
+
+# Ignore IDE specific files
+.idea/
+.project/
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.sublime-project
+.vscode/
+.history
+.recommenders
+.ensime_cache/
+.output/
+lib/
+/tmp/
+
+# Ignore Python specific files
+*.pyc
+*.pyo
+*.pyd
+*.whl
+*.manifest
+*.spec
+
+# Ignore test output
+coverage/
+.tox/
+.nox/
+.pytest_cache/
+.cache/
+pytestdebug.log
+
+# Ignore code coverage
+.coverage
+coverage.xml
+*.cover
+.hypothesis/
+
+# Ignore MyPy cache
+.mypy_cache/
+
+# Ignore other unwanted files
+*.sqlite3
+*.db
+*.sql
+*.pl
+*.tar.gz
+*.zip
+*.tar
+*.rar
+*.7z
+
+# Ignore npm specific files
+package-lock.json
+
+# Ignore Yarn specific files
+yarn.lock
+
+# Ignore pipenv specific files
+Pipfile.lock
+
+# Ignore poetry specific files
+poetry.lock
+
+# Ignore Bicep parameter files
+*.bicepparam
